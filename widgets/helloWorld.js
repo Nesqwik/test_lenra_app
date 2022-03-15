@@ -23,7 +23,7 @@ module.exports = (data, props) => {
         }
       },
       {
-        type: "button",
+        type: "truc",
         text: "Unknown listener error",
         onPressed: {
           action: "noListener"
