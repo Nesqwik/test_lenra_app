@@ -14,6 +14,20 @@ module.exports = (data, props) => {
         onChanged: {
           action: "changeValue"
         }
+      },
+      {
+        type: "button",
+        text: "Test listener error",
+        onPressed: {
+          action: "errorListener"
+        }
+      },
+      {
+        type: "button",
+        text: "Unknown listener error",
+        onPressed: {
+          action: "noListener"
+        }
       }
     ]
   }
